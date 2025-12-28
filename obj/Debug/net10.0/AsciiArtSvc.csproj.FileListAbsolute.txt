@@ -30,3 +30,4 @@
 /Users/user1/Desktop/AsciiArtSvc/AsciiArtSvc/bin/Debug/net10.0/Figgle.Fonts.dll
 /Users/user1/Desktop/AsciiArtSvc/AsciiArtSvc/obj/Debug/net10.0/AsciiArtSvc.csproj.AssemblyReference.cache
 /Users/user1/Desktop/AsciiArtSvc/AsciiArtSvc/obj/Debug/net10.0/AsciiArt.AC4477AF.Up2Date
+/Users/user1/Desktop/AsciiArtSvc/AsciiArtSvc/obj/Debug/net10.0/AsciiArtSvc.sourcelink.json

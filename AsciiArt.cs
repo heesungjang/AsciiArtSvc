@@ -6,12 +6,12 @@ namespace AsciiArtSvc;
 
 public class AsciiArt
 {
-    public static Lazy<IEnumerable<string>> AllFonts =
+    public static Lazy<IEnumerable<(string Name, FiggleFont font)>> AllFonts =
         new(() =>
             from p in typeof(FiggleFonts)
                 .GetProperties(
                     BindingFlags.Public | BindingFlags.Static)
-            select p.Name);
+            select (p.Name, font: p.GetValue(null) as FiggleFont));
 
     public static string Write(string text, string? fontName = null)
     {
